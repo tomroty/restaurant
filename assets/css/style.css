@@ -1,0 +1,6 @@
+.hero-image{
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
