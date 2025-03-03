@@ -1,12 +1,22 @@
-.hero-image{
-    height: 250px;
-    object-fit: cover;
-    filter: brightness(70%);
+.hero-image {
+  height: 250px;
+  object-fit: cover;
+  filter: brightness(70%);
 }
 
+.card-img-top {
+  height: 300px;
 
-.card-img-top{
-    height: 300px;
+  object-fit: cover;
+}
 
-    object-fit: cover;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
 }
